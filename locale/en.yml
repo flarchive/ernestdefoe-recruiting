@@ -1,0 +1,33 @@
+ernestdefoe-recruiting:
+  admin:
+    settings:
+      api_key_label: "College Football Data API Key"
+      api_key_help: "Get your free bearer token at collegefootballdata.com"
+      year_label: "Recruiting Year"
+      year_help: "Leave blank to always display the current calendar year."
+      team_label: "Team Filter"
+      team_help: "Filter by committed/recruiting team. Leave blank for national top recruits."
+      widget_title_label: "Page Title"
+      max_recruits_label: "Max Recruits to Display"
+      cache_minutes_label: "Cache Duration (minutes)"
+  forum:
+    nav:
+      label: "Recruiting"
+    page:
+      title: "Top Recruits"
+      subtitle: "FBSFB Recruiting · College Football Rankings · Powered by CFBD"
+      class_suffix: "Class"
+      loading: "Loading recruits…"
+      empty: "No recruits match your filters."
+      configure: "Set your CFBD API key in Admin → Extensions → FBSFB Recruiting."
+      invalid_key: "Invalid API key — check Admin → Extensions → FBSFB Recruiting."
+      unavailable: "Recruiting data temporarily unavailable."
+      all_positions: "All Positions"
+      all_recruits: "All Recruits"
+      committed_only: "Committed"
+      undecided_only: "Undecided"
+      search_placeholder: "Search name, school, city…"
+      avg_rating: "Avg Rating"
+      committed_count: "Committed"
+      recruit_singular: "Recruit"
+      recruit_plural: "Recruits"
